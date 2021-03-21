@@ -3,7 +3,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <nav className="Nav"></nav>
+      <nav className="Nav">
+        <navBar />
+      </nav>
     </div>
   );
 }
