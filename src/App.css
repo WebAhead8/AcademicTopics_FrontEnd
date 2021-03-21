@@ -1,11 +1,3 @@
-.App {
-  position: relative;
-  width: 360px;
-  height: 640px;
-
-  background: #dedede;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

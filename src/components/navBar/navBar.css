@@ -1,9 +1,0 @@
-.navBar {
-  position: absolute;
-  width: 360px;
-  height: 79px;
-  left: 0px;
-  top: calc(50% - 79px / 2 - 280.5px);
-
-  background: #413c69;
-}
