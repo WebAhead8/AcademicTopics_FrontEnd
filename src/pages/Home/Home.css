@@ -14,7 +14,10 @@
   color: #ffd700;
 }
 .navBar {
-  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
   width: 360px;
   height: 79px;
   left: 0px;
