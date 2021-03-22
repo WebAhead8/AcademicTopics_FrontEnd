@@ -1,0 +1,32 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.fittopic {
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-left: auto;
+  margin-top: -20px;
+  width: 200px;
+  height: 280px;
+}
+.topic {
+  background-color: #413c69;
+  color: #ffd700;
+  text-align: center;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 25px;
+}
+.topicdiv {
+  margin-right: 1000px;
+}
