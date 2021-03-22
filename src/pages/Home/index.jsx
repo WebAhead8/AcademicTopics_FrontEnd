@@ -1,8 +1,8 @@
-import "../Home/Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import "./style.css";
 
-function homePage() {
+function Home() {
   return (
     <div className="App">
       <nav className="navBar">
@@ -13,4 +13,4 @@ function homePage() {
   );
 }
 
-export default homePage;
+export default Home;
