@@ -1,0 +1,51 @@
+import "./navBar.css";
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+function Nav() {
+  const [opened, setOpened] = useState(false);
+
+  return (
+    <nav className="navBar">
+      <div onClick={() => setOpened(!opened)}>
+        <FontAwesomeIcon icon={faBars} />
+      </div>
+      <h1>الموجه الاكاديمي</h1>
+      <div
+        className={opened ? "app_drawer app_drawer--visible " : "app_drawer"}
+      >
+        <div onClick={() => setOpened(!opened)} className="navBotton">
+          <FontAwesomeIcon icon={faBars} />
+        </div>
+        <div className="app_drawer__items">
+          <ul className="app_drawer__title">
+            <li>
+              <a href="/fit">ملائمة موضوع</a>
+            </li>
+            <li>
+              <a href="/">مواضيع</a>
+            </li>
+            <li>
+              <a href="/">جامعات</a>
+            </li>
+            <li>
+              <a href="/">مرشدين</a>
+            </li>
+            <li>
+              <a href="/">مدونة</a>
+            </li>
+            <li>
+              <a href="/">مقالات</a>
+            </li>
+            <li>
+              <a href="/">منح</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+}
+
+export default Nav;
