@@ -22,11 +22,33 @@
   height: 79px;
   left: 0px;
   top: calc(50% - 79px / 2 - 280.5px);
-
   background: #413c69;
 }
+.mainSearch {
+  display: flex;
+  color: #413c69;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-right: 40px;
+  justify-content: baseline;
+}
 
-.app {
+/* .app {
   width: 360px;
   height: 640px;
+} */
+
+input[type="text"] {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #2d9fd9;
+  color: #a0d18c;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
 }
+
+/* .divSearch {
+
+} */

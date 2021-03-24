@@ -44,6 +44,9 @@ function Nav() {
           </ul>
         </div>
       </div>
+      <div className="signImage">
+        <img src="/lockB.png" alt="pro" />
+      </div>
     </nav>
   );
 }
