@@ -37,3 +37,8 @@
   clear: both;
   float: left;
 }
+
+.app {
+  width: 360px;
+  height: 640px;
+}

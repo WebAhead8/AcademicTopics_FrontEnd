@@ -17,11 +17,16 @@
   width: 200px;
 }
 
-.signUpInput {
+.signUpInput label {
   display: flex;
   flex-direction: column;
 }
-.Div input {
+input {
   display: flex;
   flex-direction: column;
 }
+
+/* .app {
+  width: 360px;
+  height: 640px;
+} */
