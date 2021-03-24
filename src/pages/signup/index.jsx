@@ -18,7 +18,12 @@ function SignUp() {
                 <label htmlFor="name">
                   الاسم الكامل:
                   <br />
-                  <input type="text" name="name" id="name" required />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    required="required"
+                  />
                 </label>
               </div>{" "}
               <label htmlFor="last_name">
@@ -34,9 +39,7 @@ function SignUp() {
                 <input type="password" name="password" id="password" required />
               </label>
               <div>
-                <button type="submit">
-                  <a href="/">تسجيل</a>
-                </button>
+                <button type="submit">تسجيل</button>
               </div>
             </fieldset>
           </form>

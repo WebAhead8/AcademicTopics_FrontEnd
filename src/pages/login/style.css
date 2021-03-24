@@ -12,10 +12,15 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  flex-direction: column;
+  text-align: right;
+  padding-right: 0px;
 }
 
 .form label input {
   height: 28px;
+  display: flex;
+  flex-direction: column;
 }
 
 .border {
@@ -33,7 +38,7 @@
   border-radius: 25px;
 }
 
-.Div {
-  clear: both;
-  float: left;
+input {
+  display: flex;
+  flex-direction: column;
 }
