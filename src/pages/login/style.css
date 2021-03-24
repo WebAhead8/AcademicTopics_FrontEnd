@@ -1,0 +1,39 @@
+.form {
+  color: black;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto;
+  width: 250px;
+  height: 280px;
+}
+.form label {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form label input {
+  height: 28px;
+}
+
+.border {
+  border: 0;
+}
+.login {
+  background-color: #413c69;
+  flex-direction: column;
+  color: #ffd700;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 25px;
+}
+
+.Div {
+  clear: both;
+  float: left;
+}
