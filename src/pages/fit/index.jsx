@@ -1,8 +1,14 @@
+import React from "react";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import CategoryFilter from "../../components/Category";
+// import Nav from "../../components/navBar/navBar";
 import "./style.css";
 
 function Fit() {
+  const [catFilter, setCatFilter] = React.useState("");
+
   return (
     <main>
       <div className="App">
@@ -10,53 +16,66 @@ function Fit() {
           <FontAwesomeIcon icon={faBars} />
           <h1>الموجه الاكاديمي</h1>
         </nav>
+        <fieldset className="border">
+          <section className="search">
+            <select>
+              <CategoryFilter
+                catFilter={catFilter}
+                setCatFilter={setCatFilter}
+              />
+              <option value="" selected disabled hidden>
+                Choose here
+              </option>
 
-        <fieldset>
+              <option value="engineering">הנדסה</option>
+              <option value="Sciences">מדעים</option>
+              <option value="Humanities">מדעי הרוח</option>
+              <option value="Social">מדעי החברה</option>
+              <option value="medicine">מדעי הרפואה ובריאות</option>
+              <option value="laws">"משפטים וניהול</option>
+              <option value="PracticalEng">הנדסאים</option>
+            </select>
+          </section>
+
           <legend className="topic">ملائمة موضوع</legend>
           <section className="fittopic">
             <label htmlFor="Psychometric">
-              <input
-                type="number"
-                name="Psychometric"
-                id="Psychometric"
-                size="4"
-              />
-              :بسيخومتري
-              <br />
+              بسيخومتري:
+              <input type="number" name="Psychometric" id="Psychometric" />
             </label>
             <label htmlFor="bagrut">
-              <input type="number" name="bagrut" id="bagrut" size="4" />
-              :بجروت
+              بجروت:
+              <input type="number" name="bagrut" id="bagrut" />
             </label>
             <br />
             <label htmlFor="number">
-              <input type="number" name="number" id="number" size="4" />
-              :יע"ל
+              יע"ל:
+              <input type="number" name="number" id="number" />
             </label>
             <br />
-            <label htmlFor="math">
-              <select>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-              <input type="number" name="math" id="math" size="4" />
-              :رياضيات
-            </label>
-            <br />
-            <label htmlFor="physics">
-              <select>
-                <option>3</option>
+            <section className="relative">
+              <label htmlFor="math">
+                رياضيات:
+                <input type="number" name="math" id="math" />
+                <select className="absolute">
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </label>
+              <label htmlFor="physics">
+                فيزياء:
+                <input type="checkbox" name="physics" id="physics" />
+                <select className="absolute1">
+                  <option>3</option>
 
-                <option>5</option>
-              </select>
-              <input type="checkbox" name="physics" id="physics" />
-              :فيزياء
-            </label>
-            <br />
+                  <option>5</option>
+                </select>
+              </label>
+            </section>
           </section>
         </fieldset>
-        <div className="topicdiv">
+        <div>
           <button className="topic" type="submit">
             ملائمة
           </button>

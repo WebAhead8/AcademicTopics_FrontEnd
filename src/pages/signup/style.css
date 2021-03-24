@@ -1,0 +1,27 @@
+.border {
+  border: 0;
+}
+
+.signup {
+  background-color: #413c69;
+  display: flex;
+  flex-direction: column;
+  color: #ffd700;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 30px;
+  border-radius: 25px;
+  width: 200px;
+}
+
+.signUpInput {
+  display: flex;
+  flex-direction: column;
+}
+.Div input {
+  display: flex;
+  flex-direction: column;
+}
