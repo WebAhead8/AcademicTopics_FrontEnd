@@ -17,7 +17,7 @@
   width: 200px;
 }
 
-.signUpInput {
+.signUpInput label {
   display: flex;
   flex-direction: column;
 }
