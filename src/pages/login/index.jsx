@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
+import Nav from "../../components/navBar/index";
 
 function LogIn() {
   const [loginData, setLoginData] = useState({ email: "", password: "" });
@@ -17,10 +18,7 @@ function LogIn() {
   return (
     <main>
       <div className="App">
-        <nav className="navBar">
-          <FontAwesomeIcon icon={faBars} />
-          <h1>الموجه الاكاديمي</h1>
-        </nav>
+        <Nav />
         <div className="form">
           <form onSubmit={onSubmit}>
             <fieldset className="border">
