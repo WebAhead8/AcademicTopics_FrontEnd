@@ -1,0 +1,27 @@
+.academic {
+	width: 203px;
+	height: 49px;
+	left: 63px;
+	top: 91px;
+	font-size: 30px;
+	background-color: #413c69;
+	border-radius: 50px;
+	margin: 25px auto 15px;
+	padding-top: 10px;
+}
+
+.links {
+	color: #413c69;
+	margin-top: 15px;
+}
+
+.instituteImg {
+	margin: 5px auto;
+	width: 180px;
+	height: 90px;
+}
+
+.institutes {
+	background-color: #dedede;
+	height: 660px;
+}

@@ -15,9 +15,6 @@ function Nav() {
       <div
         className={opened ? "app_drawer app_drawer--visible " : "app_drawer"}
       >
-        <div onClick={() => setOpened(!opened)} className="navBotton">
-          <FontAwesomeIcon icon={faBars} />
-        </div>
         <div className="app_drawer__items">
           <ul className="app_drawer__title">
             <li>
@@ -27,7 +24,7 @@ function Nav() {
               <a href="/">مواضيع</a>
             </li>
             <li>
-              <a href="/">جامعات</a>
+              <a href="/academic_institutes">مؤسسات أكاديمية</a>
             </li>
             <li>
               <a href="/">مرشدين</a>
@@ -43,6 +40,9 @@ function Nav() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="signImage">
+        <img src="/lockB.png" alt="pro" />
       </div>
     </nav>
   );

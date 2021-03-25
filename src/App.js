@@ -1,10 +1,5 @@
-import "./App.css";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from "react-router-dom";
+import './App.css';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 //Pages
 import Home from "./pages/Home";
@@ -12,6 +7,7 @@ import Fit from "./pages/fit";
 import LogIn from "./pages/login";
 import SignUp from "./pages/signup";
 import Blog from "./pages/blog";
+import AcademicInstitutes from './pages/academic_institutes';
 // import Subjects from "./pages/subjects";
 
 function App() {
@@ -23,12 +19,15 @@ function App() {
         <Route exact path="/login" component={LogIn} />
         <Route exact path="/signup" component={SignUp} />
         <Route exact path="/blog" component={Blog} />
+    <Route exact path="/academic_institutes" component={AcademicInstitutes} />
 
         {/* <Route exact path="/subject" component={subjects} /> */}
+    {/* <Route exact path="/subject" component={subjects} /> */}
         <Redirect to="/404" />
       </Switch>
     </Router>
   );
+
 }
 
 export default App;
