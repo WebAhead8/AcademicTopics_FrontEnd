@@ -114,3 +114,11 @@ ul {
 	position: relative;
 	padding-top: 20px;
 }
+
+.signImage {
+  width: 33px;
+  height: 33px;
+  padding-top: 9px;
+  display: flex;
+  justify-content: baseline;
+}
