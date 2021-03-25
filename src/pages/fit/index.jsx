@@ -3,7 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import CategoryFilter from "../../components/Category";
-// import Nav from "../../components/navBar/navBar";
+import Nav from "../../components/navBar";
 import "./style.css";
 
 function Fit() {
@@ -12,10 +12,7 @@ function Fit() {
   return (
     <main>
       <div className="App">
-        <nav className="navBar">
-          <FontAwesomeIcon icon={faBars} />
-          <h1>الموجه الاكاديمي</h1>
-        </nav>
+        <Nav />
         <fieldset className="border">
           <section className="search">
             <select>

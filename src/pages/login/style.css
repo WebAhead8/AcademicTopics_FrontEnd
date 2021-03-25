@@ -42,3 +42,8 @@ input {
   display: flex;
   flex-direction: column;
 }
+
+.app {
+  width: 360px;
+  height: 640px;
+}
