@@ -12,6 +12,7 @@ import Fit from "./pages/fit";
 import LogIn from "./pages/login";
 import SignUp from "./pages/signup";
 import Blog from "./pages/blog";
+import Comments from "./pages/comments";
 // import Subjects from "./pages/subjects";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/login" component={LogIn} />
         <Route exact path="/signup" component={SignUp} />
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/comments" component={Comments} />
 
         {/* <Route exact path="/subject" component={subjects} /> */}
         <Redirect to="/404" />
