@@ -19,7 +19,7 @@ function Nav() {
 			<div onClick={() => setOpened(!opened)}>
 				<FontAwesomeIcon icon={faBars} />
 			</div>
-			<h1 onClick={homeLink}>الموجه الاكاديمي</h1>
+			<h1 onClick={homeLink}>الموجه الاكاديمي 🎓</h1>
 			<div className={opened ? 'app_drawer app_drawer--visible ' : 'app_drawer'}>
 				<div className="app_drawer__items">
 					<ul className="app_drawer__title">
