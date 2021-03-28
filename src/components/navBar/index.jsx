@@ -27,7 +27,7 @@ function Nav() {
 							<a href="/fit">ملائمة موضوع</a>
 						</li>
 						<li>
-							<a href="/">مواضيع</a>
+							<a href="/subjects">مواضيع</a>
 						</li>
 						<li>
 							<a href="/academic_institutes">مؤسسات أكاديمية</a>
