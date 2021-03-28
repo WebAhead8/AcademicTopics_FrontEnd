@@ -30,7 +30,7 @@ function Nav() {
               <a href="/">مرشدين</a>
             </li>
             <li>
-              <a href="/">مدونة</a>
+              <a href="/blogs">مدونة</a>
             </li>
             <li>
               <a href="/">مقالات</a>
