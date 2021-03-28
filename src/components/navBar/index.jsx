@@ -2,16 +2,24 @@ import "./navBar.css";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useHistory } from "react-router-dom";
 
 function Nav() {
   const [opened, setOpened] = useState(false);
+  const history = useHistory();
+  function signLink() {
+    history.push("/login");
+  }
 
+  function homeLink() {
+    history.push("/");
+  }
   return (
     <nav className="navBar">
       <div onClick={() => setOpened(!opened)}>
         <FontAwesomeIcon icon={faBars} />
       </div>
-      <h1>الموجه الاكاديمي</h1>
+      <h1 onClick={homeLink}>الموجه الاكاديمي</h1>
       <div
         className={opened ? "app_drawer app_drawer--visible " : "app_drawer"}
       >
@@ -42,7 +50,7 @@ function Nav() {
         </div>
       </div>
       <div className="signImage">
-        <img src="/lockB.png" alt="pro" />
+        <img src="/lockB.png" alt="pro" onClick={signLink} />
       </div>
     </nav>
   );
