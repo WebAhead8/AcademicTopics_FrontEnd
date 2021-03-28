@@ -21,6 +21,14 @@ textarea {
   text-align: right;
   color: black;
   font-size: 30px;
+  color: black;
+}
+.post {
+  display: flex;
+}
+.post li {
+  color: black;
+  font-size: 25px;
 }
 img {
   width: 20px;
