@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Nav from "../../components/navBar";
 import "./style.css";
+import { useHistory } from "react-router-dom";
 
 function Blog() {
   const [content, setContent] = React.useState("");
   const [allPosts, setAllPosts] = React.useState([]);
+  const history = useHistory();
   function handlContentChange(event) {
     setContent(event.target.value);
   }
@@ -15,9 +17,9 @@ function Blog() {
     });
     setContent("");
   }
-  //   function veiwcomment() {
-
-  //}
+  function veiwBlog() {
+    history.push("/blog/1");
+  }
 
   return (
     <main>
@@ -34,15 +36,7 @@ function Blog() {
         <legend className="sharing">مشاركات:</legend>
         <ul className="post">
           {allPosts.map((eachPost) => {
-            return (
-              <li>
-                {" "}
-                {eachPost}{" "}
-                <button>
-                  <a href="/comments">comments</a>
-                </button>
-              </li>
-            );
+            return <li onClick={veiwBlog}> {eachPost} </li>;
           })}
         </ul>
       </div>
