@@ -7,7 +7,7 @@ import Fit from './pages/fit';
 import LogIn from './pages/login';
 import SignUp from './pages/signup';
 import AcademicInstitutes from './pages/academic_institutes';
-// import Subjects from "./pages/subjects";
+import Subjects from './pages/subjects';
 
 function App() {
 	return (
@@ -18,7 +18,7 @@ function App() {
 				<Route exact path="/login" component={LogIn} />
 				<Route exact path="/signup" component={SignUp} />
 				<Route exact path="/academic_institutes" component={AcademicInstitutes} />
-				{/* <Route exact path="/subject" component={subjects} /> */}
+				<Route exact path="/subjects" component={Subjects} />
 				<Redirect to="/404" />
 			</Switch>
 		</Router>
