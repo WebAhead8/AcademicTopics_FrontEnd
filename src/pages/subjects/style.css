@@ -1,0 +1,38 @@
+.subject {
+	width: 203px;
+	height: 49px;
+	left: 63px;
+	top: 91px;
+	font-size: 30px;
+	background-color: #413c69;
+	border-radius: 50px;
+	margin: 25px auto;
+	padding-top: 10px;
+}
+
+.facultyBox {
+	background-color: #8a9ca4;
+	width: 260px;
+	height: 250px;
+	margin-right: 50px;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.faculty {
+	margin: 0;
+}
+
+.subjectsList {
+	margin: 0px;
+}
+
+._topic {
+	color: black;
+	font-weight: bold;
+}
+
+.subjectsToShow {
+	background-color: #dedede;
+	height: 1650px;
+}

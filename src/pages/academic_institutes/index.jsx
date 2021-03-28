@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../../components/navBar';
 import './style.css';
 
-let academicInstitutes_array = [
+const academicInstitutes_array = [
 	{ imgName: 'haifa', url: 'https://www.haifa.ac.il' },
 	{ imgName: 'technion', url: 'https://www.technion.ac.il' },
 	{ imgName: 'tau', url: 'https://www.tau.ac.il' },
@@ -11,7 +11,7 @@ let academicInstitutes_array = [
 ];
 
 function LogoOfInstitute({ imgName, url }) {
-	let logo = `images/uni_icons/${imgName}.png`;
+	const logo = `images/uni_icons/${imgName}.png`;
 	return (
 		<a href={url} target="_blank">
 			<img className="instituteImg" src={logo} alt={imgName} />
@@ -30,7 +30,7 @@ const academicInstitutes_toShow = academicInstitutes_array.map((institute) => {
 
 function AcademicInstitutes() {
 	return (
-		<div className="App ">
+		<div className="App">
 			<Nav />
 			<h1 className="academic">مؤسسات أكاديمية</h1>
 			<h3 className="links">أنقر على الصورة لتتصفح موقع المؤسسة</h3>
