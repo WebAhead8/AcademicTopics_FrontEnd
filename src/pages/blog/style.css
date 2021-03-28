@@ -1,0 +1,48 @@
+.blog {
+  background-color: #413c69;
+  color: #ffd700;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 25px;
+  width: 85px;
+}
+textarea {
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+
+  width: 314px;
+  height: 64px;
+}
+.sharing {
+  text-align: right;
+  color: black;
+  font-size: 30px;
+  color: black;
+}
+.post {
+  display: flex;
+}
+.post li {
+  color: black;
+  font-size: 25px;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+.absolute {
+  position: absolute;
+  top: 49px;
+  right: 230px;
+  width: 200px;
+  height: 100px;
+}

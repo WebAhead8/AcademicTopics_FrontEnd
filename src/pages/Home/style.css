@@ -49,6 +49,114 @@ input[type="text"] {
   padding-left: 10px;
 }
 
-/* .divSearch {
+.divSearch {
+  position: absolute;
+  width: 360px;
+  height: 60.44px;
+  left: 0px;
+  top: 77.56px;
+  background-color: #2d9fd9;
+}
 
-} */
+.mainCover {
+  position: absolute;
+  width: 360px;
+  height: 168px;
+  left: 0px;
+  top: 138px;
+  background: #709fb0;
+}
+
+.mainImage {
+  position: absolute;
+  width: 193px;
+  height: 168px;
+  left: 2px;
+}
+
+.slogenT {
+  position: absolute;
+  width: 165px;
+  height: 72px;
+  left: 140px;
+  top: -33px;
+  font-size: 44px;
+  font-family: Lateef;
+  line-height: 87px;
+  text-align: right;
+  color: #ffd700;
+}
+
+.slogenE {
+  position: absolute;
+  width: 165px;
+  height: 72px;
+  left: 133px;
+  font-size: 44px;
+  font-family: Lateef;
+  line-height: 87px;
+  text-align: right;
+  color: #000000;
+}
+.slogenJ {
+  position: absolute;
+  width: 165px;
+  height: 72px;
+  left: 140px;
+  top: 55px;
+  font-size: 44px;
+  font-family: Lateef;
+  line-height: 87px;
+  text-align: right;
+  color: #205dad;
+}
+
+.curlyB1 {
+  position: absolute;
+  width: 60px;
+  height: 325px;
+  left: 300px;
+  top: 111px;
+
+  font-family: Lateef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 225px;
+  line-height: 325px;
+  text-align: center;
+
+  color: #ffd700;
+}
+
+.curlyB2 {
+  position: absolute;
+  width: 60px;
+  height: 325px;
+  left: 30px;
+  top: 111px;
+  font-family: Lateef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 225px;
+  line-height: 325px;
+  text-align: center;
+
+  color: #ffd700;
+}
+
+.mainPara {
+  position: absolute;
+  width: 196px;
+  height: 178px;
+  left: 82px;
+  top: 333px;
+
+  font-family: Lateef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #000000;
+}
