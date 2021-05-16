@@ -2,8 +2,11 @@ import "./style.css";
 import Nav from "../../components/navBar/index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { getPosts } from "../../utlis/mainFetsh";
 
 function Home() {
+  let data = getPosts();
+  console.log(data);
   return (
     <div className="App">
       <Nav />
